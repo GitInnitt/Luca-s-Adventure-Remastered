@@ -1,2 +1,2 @@
 # Luca-s-Adventure
-Passion project of a game I made in 2022
+Passion project of a remake from a game I made in 2022
