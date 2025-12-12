@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
+    [SerializeField] private GameObject Player;
+    [SerializeField] private int Coins;
     [SerializeField] private int Health = 100;
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float jumpForce = 7f;
@@ -18,7 +20,7 @@ public class playerMovement : MonoBehaviour
     private Animator animator;
 
     private SpriteRenderer spriteRenderer;
-    void Start()
+    void Start()  
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
